@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 24px;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .poster {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .info {
+    font-size: 16px;
+    margin: 4px 0;
+  }
+  
+  .plot {
+    font-size: 14px;
+    color: #ccc;
+    margin: 12px 0;
+  }
+  
+  .button {
+    background-color: #2196f3;
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  .button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
+  
